@@ -1,0 +1,162 @@
+html {
+	background-color: rgb(240,240,240);
+}
+
+a {
+	text-decoration:none;
+}
+
+#Top {
+	background-color: rgba(114,102,186,0.2);
+	height: 55px;
+	width: 100%;
+	margin-left: -10px;
+	margin-right: -10px;
+	margin-top: -10px;
+	padding: 5px;
+	text-align: center;
+}
+
+#Name ul li {
+	display: inline;
+	margin-left: 20px;
+	margin-right: 20px;
+    font-size: 20px;
+	font-weight: bold;
+	font-family: Cursive;
+	color: rgb(255,255,255);
+}
+
+#Login ul li {
+	display: inline;
+	margin-left: 20px;
+	margin-right: 20px;
+    font-size: 20px;
+	font-weight: bold;
+	font-family: Cursive;
+	color: rgb(242,242,242);
+}
+
+#RowMenu ul li {
+	display: inline;
+	margin-left: 50px;
+	margin-right: 50px;
+    font-size: 20px;
+	font-weight: bold;
+	font-family: Cursive;
+	color: rgb(242,242,242);
+}
+
+#Name {
+	float:left;
+	width: 10%;
+}
+
+#RowMenu {
+	float:left;
+	width: 70%;
+}
+
+#Login {
+	float:left;
+	width: 20%;
+}
+
+#Name a:link {	/* 未被访问的链接 */
+	color: rgb(70,70,70);
+}
+#RowMenu a:link {
+	color: rgb(70,70,70);
+}
+#Login a:link {
+	color: rgb(70,70,70);
+}
+
+#Name a:visited {	/* 已被访问的链接 */
+	color: rgb(70,70,70);
+}
+#RowMenu a:visited {
+	color: rgb(70,70,70);
+}
+#Login a:visited {
+	color: rgb(70,70,70);
+}
+
+#Name a:hover {	/* 鼠标指针移动到链接上 */
+	color: rgb(200,200,200);
+}
+#RowMenu a:hover {
+	color: rgb(200,200,200);
+}
+#Login a:hover {
+	color: rgb(200,200,200);
+}
+
+#Name a:active {	/* 正在被点击的链接 */
+	color: rgb(200,200,200);
+}
+#RowMenu a:active {
+	color: rgb(200,200,200);
+}
+#Login a:active {
+	color: rgb(200,200,200);
+}
+
+#picture {
+	float: left;
+}
+
+#information {
+	float: left;
+	margin-left: 15px;
+	margin-right: 18px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 5px;
+	padding-bottom: -20px;
+	font-family: Fantasy;
+	font-weight: bold;
+	font-size: 180%;
+	letter-spacing: 4px;	/* 字母间距 */
+}
+
+#submit {
+	float: left;
+	font-family: Cursive;
+	font-size:145%;
+	background-color: rgb(220,220,220);
+	margin-top: 400px;
+	margin-left: -200px;
+	height:40px;
+	width:200px;
+	border:1px solid rgb(200,200,200);	/* 边框宽度、颜色 */
+	border-radius:8px;
+}
+
+#footer {
+	float: left;
+	text-align: center;
+	width: 1360px;
+	height: 30px;
+	background-color: rgba(255,255,255,0.86);	/* 背景透明 */
+	margin-top: 15px;
+	margin-right:-10px;
+	margin-left: -20px;
+	margin-bottom: -19px;
+	padding-top: 15px;
+}
+
+#footer a:link {	/* 未被访问的链接 */
+	color: rgb(0,0,0);
+}
+#footer a:visited {	/* 已被访问的链接 */
+	color: rgb(0,0,0);
+}
+#footer a:hover {	/* 鼠标指针移动到链接上 */
+	color: rgb(200,200,200);
+}
+#footer a:active {	/* 正在被点击的链接 */
+	color: rgb(200,200,200);
+}

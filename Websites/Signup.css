@@ -1,0 +1,109 @@
+a {
+	text-decoration:none;
+}
+
+html {
+	background-image: url('../Images/Signup.jpg');
+}
+
+h2 {
+	margin-top: 50px;
+	color: rgb(255,255,255);
+	text-align: center;
+	font-size: 280%;
+	font-family: Cursive;
+	text-shadow:7px 3px 9px rgb(0,0,0);	/* 字体阴影 */
+}
+
+#Signup {
+	text-align: center;
+	font-family: Fantasy;
+	font-size: 200%;
+	font-weight: bold;
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-top: 50px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: rgba(255,255,255,0.85);	/* 背景透明 */
+	border-radius: 8px;	/* 圆角 */
+}
+
+.warning {
+	font-family: Monospace;
+	font-size: 45%;
+	color: red;
+	margin-left: 15px;
+}
+
+#check {
+	font-family: Monospace;
+	font-size: 50%;
+	font-weight: lighter;
+	margin-left: 15px;
+}
+
+a:link {	/* 未被访问的链接 */
+	color: rgb(35,136,218);
+}
+a:visited {	/* 已被访问的链接 */
+	color: rgb(35,136,218);
+}
+a:hover {	/* 鼠标指针移动到链接上 */
+	color: rgb(218,136,35);
+}
+a:active {	/* 正在被点击的链接 */
+	color: rgb(218,136,35);
+}
+
+.input {
+	margin-top: 40px;
+	margin-left: 50px;
+	height:28px;
+	width:180px;
+	border:1px solid rgb(200,200,200);	/* 边框宽度、颜色 */
+	border-radius:8px;
+}
+
+#submit {
+	font-family: Fantasy;
+	font-size:105%;
+	margin-top: 20px;
+	margin-left: 50px;
+	height:40px;
+	width:130px;
+	border:1px solid rgb(200,200,200);	/* 边框宽度、颜色 */
+	border-radius:8px;
+}
+
+#OK {
+	font-family: Monospace;
+	font-size: 100%;
+	color: blue;
+}
+
+#footer {
+	float: left;
+	text-align: center;
+	width: 1360px;
+	height: 30px;
+	background-color: rgba(255,255,255,0.86);	/* 背景透明 */
+	margin-top: 15px;
+	margin-right:-10px;
+	margin-left: -20px;
+	margin-bottom: -19px;
+	padding-top: 15px;
+}
+
+#footer a:link {	/* 未被访问的链接 */
+	color: rgb(0,0,0);
+}
+#footer a:visited {	/* 已被访问的链接 */
+	color: rgb(0,0,0);
+}
+#footer a:hover {	/* 鼠标指针移动到链接上 */
+	color: rgb(200,200,200);
+}
+#footer a:active {	/* 正在被点击的链接 */
+	color: rgb(200,200,200);
+}

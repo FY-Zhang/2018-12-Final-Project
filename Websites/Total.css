@@ -1,0 +1,27 @@
+a {
+	text-decoration:none;
+}
+
+#footer {
+	text-align: center;
+	height: 30px;
+	background-color: rgba(255,255,255,0.86);	/* 背景透明 */
+	margin-top: 15px;
+	margin-right:-10px;
+	margin-left: -20px;
+	margin-bottom: -19px;
+	padding-top: 15px;
+}
+
+#footer a:link {	/* 未被访问的链接 */
+	color: rgb(0,0,0);
+}
+#footer a:visited {	/* 已被访问的链接 */
+	color: rgb(0,0,0);
+}
+#footer a:hover {	/* 鼠标指针移动到链接上 */
+	color: rgb(200,200,200);
+}
+#footer a:active {	/* 正在被点击的链接 */
+	color: rgb(200,200,200);
+}

@@ -1,0 +1,97 @@
+#Top {
+	height: 55px;
+	width: 100%;
+	margin-left: -10px;
+	margin-right: -10px;
+	margin-top: -33px;
+	padding: 5px;
+	text-align: center;
+	position: absolute;	/* 固定 */
+	z-index: 999;	/* 数值大在上 */
+	background-color: rgba(255,255,255,0.86);	/* 背景透明 */
+}
+
+#Name ul li {
+	display: inline;
+	margin-left: 20px;
+	margin-right: 20px;
+    font-size: 20px;
+	font-weight: bold;
+	font-family: Cursive;
+	color: rgb(255,255,255);
+}
+
+#Login ul li {
+	display: inline;
+	margin-left: 20px;
+	margin-right: 20px;
+    font-size: 20px;
+	font-weight: bold;
+	font-family: Cursive;
+	color: rgb(242,242,242);
+}
+
+#RowMenu ul li {
+	display: inline;
+	margin-left: 50px;
+	margin-right: 50px;
+    font-size: 20px;
+	font-weight: bold;
+	font-family: Cursive;
+	color: rgb(242,242,242);
+}
+
+#Name {
+	float:left;
+	width: 10%;
+}
+
+#RowMenu {
+	float:left;
+	width: 70%;
+}
+
+#Login {
+	float:left;
+	width: 20%;
+}
+
+#Name a:link {	/* 未被访问的链接 */
+	color: rgb(70,70,70);
+}
+#RowMenu a:link {
+	color: rgb(70,70,70);
+}
+#Login a:link {
+	color: rgb(70,70,70);
+}
+
+#Name a:visited {	/* 已被访问的链接 */
+	color: rgb(70,70,70);
+}
+#RowMenu a:visited {
+	color: rgb(70,70,70);
+}
+#Login a:visited {
+	color: rgb(70,70,70);
+}
+
+#Name a:hover {	/* 鼠标指针移动到链接上 */
+	color: rgb(200,200,200);
+}
+#RowMenu a:hover {
+	color: rgb(200,200,200);
+}
+#Login a:hover {
+	color: rgb(200,200,200);
+}
+
+#Name a:active {	/* 正在被点击的链接 */
+	color: rgb(200,200,200);
+}
+#RowMenu a:active {
+	color: rgb(200,200,200);
+}
+#Login a:active {
+	color: rgb(200,200,200);
+}

@@ -1,0 +1,21 @@
+#allmap {
+	width: 900px;
+	height: 480px;
+	overflow: hidden;	/* 溢出后内容修剪 */
+	margin: 0;
+}
+
+#map {
+	background-color: rgba(255,255,255,0.7);	/* 背景透明 */
+	margin-left: 15px;
+	margin-right: 18px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-left: 30px;
+	padding-right: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	letter-spacing: 2px;	/* 字母间距 */
+	font-family: Fantasy;
+	font-size: 150%;
+}

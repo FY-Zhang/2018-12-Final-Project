@@ -1,0 +1,52 @@
+.Good {
+	background-color: rgba(255,255,255,0.7);	/* 背景透明 */
+	margin-left: 15px;
+	margin-right: 18px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 8px;	/* 圆角 */
+}
+
+.Normal {
+	background-color: rgba(50,50,50,0.7);	/* 背景透明 */
+	color: rgb(233,233,233);
+	margin-left: 15px;
+	margin-right: 18px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 8px;	/* 圆角 */
+}
+
+.Friends {
+	margin-top: 10px;
+	float: left;
+	height: 60px;
+	width: 60px;
+	border-radius: 300px;
+}
+
+.othersH {
+	margin-left: 80px;
+	font-size: 180%;
+	font-family: Fantasy;
+	font-weight: bold;
+	letter-spacing: 2px;	/* 字母间距 */
+}
+
+.othersP {
+	margin-left: 50px;
+	font-size: 120%;
+	font-family: Monospace;
+}
+
+.me {
+	
+}

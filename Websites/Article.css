@@ -1,0 +1,21 @@
+#Centre {
+	margin-left: 190px;
+	margin-top: 55px;
+	padding: 20px;
+	float: left;
+	width: 1127px;
+	background-image: url('../Images/HomePage.jpg');
+    background-attachment: fixed;
+}
+
+#header {
+	color: rgb(255,255,255);
+	text-align: center;
+	font-size: 170%;
+	font-family: Cursive;
+	text-shadow:5px 2px 6px rgb(0,0,0);	/* 字体阴影 */
+}
+
+#image {
+	float: right;
+}

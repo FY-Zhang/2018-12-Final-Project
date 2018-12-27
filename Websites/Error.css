@@ -1,0 +1,24 @@
+h2 {
+	text-align: center;
+	font-family: Fantasy;
+	font-size: 500%;
+	font-weight: bold;
+	color: red;
+}
+
+p {
+	text-align: center;
+	font-family: Fantasy;
+	font-size: 200%;
+	font-weight: bold;
+}
+
+a {
+	font-family: Fantasy;
+	font-size: 600%;
+	font-weight: bold;
+}
+
+span {
+	color: red;
+}

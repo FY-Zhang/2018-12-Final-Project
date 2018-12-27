@@ -1,0 +1,83 @@
+html {
+	background-color: rgb(58,63,81);
+}
+
+h2 {
+	color: rgb(255,255,255);
+	text-align: center;
+	font-size: 250%;
+	font-family: Cursive;
+	font-weight: bold;
+	text-shadow:5px 2px 6px rgb(0,0,0);	/* 字体阴影 */
+}
+
+a {
+	text-decoration:none;
+}
+
+#List a {
+	/* 扩大链接点击面积 */
+	display: block;
+	padding: 2px 2px;
+}
+
+#List a:link {	/* 未被访问的链接 */
+	color: rgb(180,182,189);
+	background-color: rgb(58,63,81);
+}
+#List a:visited {	/* 已被访问的链接 */
+	color: rgb(180,182,189);
+	background-color: rgb(58,63,81);
+}
+#List a:hover {	/* 鼠标指针移动到链接上 */
+	color: rgb(255,255,255);
+	background-color: rgb(50,55,74);
+}
+#List a:active {	/* 正在被点击的链接 */
+	color: rgb(255,255,255);
+	background-color: rgb(50,55,74);
+}
+
+#List ul li {
+	list-style: none;
+}
+
+#List {
+	margin-left: 200px;
+	margin-right: 200px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 150%;
+	letter-spacing: 2px;	/* 字母间距 */
+	background-color: rgba(58,63,81,0,75);	/* 背景透明 */
+	border-radius: 8px;	/* 圆角 */
+}
+
+#footer {
+	float: left;
+	text-align: center;
+	width: 1360px;
+	height: 30px;
+	color:rgb(180,182,189);
+	background-color: rgb(58,63,81);	/* 背景透明 */
+	margin-top: 15px;
+	margin-right:-10px;
+	margin-left: -20px;
+	margin-bottom: -19px;
+	padding-top: 15px;
+}
+
+#footer a:link {	/* 未被访问的链接 */
+	color: rgb(180,182,189);
+}
+#footer a:visited {	/* 已被访问的链接 */
+	color: rgb(180,182,189);
+}
+#footer a:hover {	/* 鼠标指针移动到链接上 */
+	color: rgb(255,255,255);
+}
+#footer a:active {	/* 正在被点击的链接 */
+	color: rgb(255,255,255);
+}

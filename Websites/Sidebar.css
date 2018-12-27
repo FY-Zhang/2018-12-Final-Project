@@ -1,0 +1,65 @@
+#Left {
+	background-color: rgb(58,63,81);
+	color: rgb(180,182,189);
+	height: 800px;
+	width: 190px;
+	float: left;
+	margin-top: 55px;
+	margin-left: -10px;
+	padding-top: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-align: center;
+	position: fixed;	/* 固定 */
+}
+
+.HeadSculpture {
+	margin-top: 20px;
+	height: 130px;
+	width: 130px;
+	border-radius: 300px;
+}
+
+#Myself p {
+	font-size: 20px;
+	font-family: Monospace;
+}
+
+#Line {
+	color: rgb(46,51,68);
+}
+
+#ColumnMenu ul li {
+	list-style: none;
+}
+
+#ColumnMenu {
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: -20px;
+	margin-left: -42px;
+	padding: 5px;
+	line-height: 300%;
+}
+
+#ColumnMenu a {	/* 扩大链接点击面积 */
+	display: block;
+	padding: 1px 2px;
+}
+
+#ColumnMenu a:link {	/* 未被访问的链接 */
+	color: rgb(180,182,189);
+	background-color: rgb(58,63,81);
+}
+#ColumnMenu a:visited {	/* 已被访问的链接 */
+	color: rgb(180,182,189);
+	background-color: rgb(58,63,81);
+}
+#ColumnMenu a:hover {	/* 鼠标指针移动到链接上 */
+	color: rgb(255,255,255);
+	background-color: rgb(50,55,74);
+}
+#ColumnMenu a:active {	/* 正在被点击的链接 */
+	color: rgb(255,255,255);
+	background-color: rgb(50,55,74);
+}
